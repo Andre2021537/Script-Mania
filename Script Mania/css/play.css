@@ -45,6 +45,60 @@ body {
   outline: 2px solid black;
 }
 
+.msTitle {
+  /* text */
+  font-size: 1.5em;
+  /* positioning */
+  position: absolute;
+  top: 0.2em;
+  left: 0.2em;
+}
+
+.msDifficulty {
+  /* text */
+  font-size: 1.5em;
+  /* positioning */
+  position: absolute;
+  bottom: 0.2em;
+  left: 0.2em;
+}
+
+.miName {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 0.2em;
+  left: 0.2em;
+}
+
+.miCreator {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 1.6em;
+  left: 0.2em;
+}
+
+.miDifficulty {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 3em;
+  left: 0.2em;
+}
+
+.miStats {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 4.4em;
+  left: 0.2em;
+}
+
 .mapInfo {
   /* positioning */
   position: fixed;
@@ -71,4 +125,22 @@ body {
 
   /* outline */
   outline: 2px solid black;
+}
+
+.mapSearchText {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 0.4em;
+  left: 0.2em;
+}
+
+.mapSearchBar {
+  /* text */
+  font-size: 2em;
+  /* positioning */
+  position: absolute;
+  top: 0.4em;
+  left: 4em;
 }

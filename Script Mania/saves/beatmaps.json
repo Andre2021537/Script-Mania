@@ -1,0 +1,14 @@
+var photosdatabase =
+{
+  "photos":
+  [
+    {
+      "photo_id": 27932,
+      "photo_title": "Atardecer en Embalse",
+      "photo_url": "sgnbsfgn",
+      "photo_file_url": "sfgnsfng",
+      "longitude": -64.404945,
+      "latitude": -32.202924,
+    },....
+  ]
+}
