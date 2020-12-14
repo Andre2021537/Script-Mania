@@ -1,0 +1,74 @@
+body {
+  /* positioning */
+  margin: 0;
+  /* text */
+  font-family: Sans-serif, Arial;
+}
+
+.mapSelectArea {
+  /* positioning */
+  position: fixed;
+  right: 1em;
+  top: 10em;
+  display: inline-block;
+
+  /* size */
+  width: 92em;
+  height: 49.5em;
+
+  /* outline */
+  outline: 2px solid black;
+
+  /* scrolling */
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.mapSelectArea::-webkit-scrollbar {
+  display: none;
+}
+
+.mapSelectBox {
+  /* positioning */
+  position: relative;
+  float: right;
+  margin: 1em;
+  clear: both;
+
+  /* size */
+  width: 40em;
+  height: 5em;
+
+  /* outline */
+  outline: 2px solid black;
+}
+
+.mapInfo {
+  /* positioning */
+  position: fixed;
+  left: 1em;
+  top: 1em;
+
+  /* size */
+  width: 25em;
+  height: 58.5em;
+
+  /* outline */
+  outline: 2px solid black;
+}
+
+.mapSearch {
+  /* positioning */
+  position: fixed;
+  right: 1em;
+  top: 1em;
+
+  /* size */
+  width: 92em;
+  height: 8em;
+
+  /* outline */
+  outline: 2px solid black;
+}
