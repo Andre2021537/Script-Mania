@@ -1,0 +1,63 @@
+
+.header {
+  /* text */
+  font-size: 5em;
+  /* positioning */
+  text-align: center;
+}
+
+body {
+  /* positioning */
+  margin: 0;
+  /* text */
+  font-family: Sans-serif, Arial;
+}
+
+
+.create {
+  /* text */
+  font-size: 4em;
+  /* positioning */
+  position: absolute;
+  bottom: 8em;
+  left: 8em;
+}
+
+.edit {
+  /* text */
+  font-size: 4em;
+  /* positioning */
+  position: absolute;
+  bottom: 8em;
+  right: 8em;
+}
+
+.back {
+  /* text */
+  font-size: 2.8em;
+  /* positioning */
+  position: absolute;
+  top: 0em;
+  left: 0.15em;
+}
+
+.create:hover, .edit:hover, .back:hover {
+  /* text */
+  text-decoration: underline;
+  /* cursor */
+  cursor: pointer;
+}
+
+.disable-select {
+  /* text */
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+}
