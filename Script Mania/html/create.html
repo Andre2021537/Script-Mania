@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- linked files -->
+    <link rel="stylesheet" href="../css/create.css" type="text/css">
+    <script type="text/javascript" src="../javascript/create.js"></script>
+    <script type="text/javascript" src="../javascript/settings.js"></script>
+    <script type="application/json" src="../saves/settings.json"></script>
+    <meta charset="utf-8">
+    <title>ScriptMania | Beatmapper</title>
+  </head>
+  <body>
+
+    <div class="header">ScriptMania Beatmapper</div>
+    <div class="subheader">Press [Record] to start recording and press SPACE to stop recording, use DFJK as keys</div>
+
+    <div class="back disable-select" onclick="launch('back')">Back</div>
+
+    <div class="one" id="key1">1</div>
+    <div class="two" id="key2">2</div>
+    <div class="three" id="key3">3</div>
+    <div class="four" id="key4">4</div>
+
+    <div class="record disable-select" id="record" onclick="record()">[Record]</div>
+
+    <center>
+    <input id="mapName" placeholder="Map Name"></input>
+    <input id="creatorName" placeholder="Your Name"></input>
+    <div id="submit">Create Beatmap</div>
+    <center>
+
+  </body>
+</html>
