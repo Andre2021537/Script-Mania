@@ -1,6 +1,6 @@
 function launch(type) {
   if (type == "create") {
-    window.location.href = "../html/play.html";
+    window.location.href = "../html/create.html";
   } else if (type == "edit") {
     window.location.href = "../html/editor.html";
   }  else if (type == "back") {
