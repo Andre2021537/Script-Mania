@@ -1,9 +1,3 @@
-body {
-  /* positioning */
-  margin: 0;
-  /* text */
-  font-family: Sans-serif, Arial;
-}
 
 .header {
   /* text */
@@ -11,6 +5,14 @@ body {
   /* positioning */
   text-align: center;
 }
+
+body {
+  /* positioning */
+  margin: 0;
+  /* text */
+  font-family: Sans-serif, Arial;
+}
+
 
 .play {
   /* text */
